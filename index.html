@@ -1,133 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <style>
-             body {
-                font-family: arial, sans-serif;
-                padding:20px;
-                background-color: #f9f9f9;
-            }
-            h1 {
-                margin-bottom: 5px;
-            }
-            p{
-                margin-top: 0;
-                line-height: 1.6;
-            }
-            h2{
-                margin-top: 40px;
-                color: #333;
-            }
-            ul{
-                padding-left: 20px;
-            }
-            li{
-                margin-bottom: 5px;
-            }
-            a{
-                color: #0077cc;
-                text-decoration: none;
-            }
-            a:hover{
-                text-decoration: underline;
-            }
-            hr{
-                border:none;
-                border-top: 1px solid #ddd;
-                margin: 40px 0;
-            }
-            .container {
-                width: 800px;
-                margin: auto;
-                padding: 20px;
-                background-color: white;
-                border-radius: 6px;
-            }
-        </style>
-        <meta charset="UTF-8">
-        <title>PRATHIVRAJ | PORTFOLIO</title>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRATHIV RAJ | Portfolio</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #eef2f7;
+            color: #333;
+            line-height: 1.7;
+            padding: 30px;
+        }
+
+        .container{
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1{
+            font-size: 40px;
+            margin-bottom: 10px;
+            color: #111;
+        }
+
+        .role{
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .links{
+            margin-bottom: 25px;
+        }
+
+        .links a{
+            text-decoration: none;
+            color: #0077cc;
+            margin-right: 15px;
+            transition: 0.3s;
+        }
+
+        .links a:hover{
+            color: #005999;
+            text-decoration: underline;
+        }
+
+        hr{
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 30px 0;
+        }
+
+        h2{
+            margin-bottom: 15px;
+            color: #222;
+        }
+
+        h3{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #111;
+        }
+
+        p{
+            margin-bottom: 12px;
+        }
+
+        ul{
+            padding-left: 20px;
+        }
+
+        li{
+            margin-bottom: 8px;
+        }
+
+        .tech{
+            font-weight: bold;
+            color: #444;
+        }
+
+        .project-link a{
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        .project-link a:hover{
+            text-decoration: underline;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
     <div class="container">
-        <h1>PRATHIVRAJ</h1>
-        <p>BCA Gradute | C++ | DSA | SQL</p>
+
+        <h1>PRATHIV RAJ</h1>
+
+        <p class="role">
+            Full Stack Developer | React | PHP | MySQL | C++
+        </p>
+
+        <div class="links">
+
+            <a href="mailto:prathivraj.dev01@gmail.com">
+                Email
+            </a>
+
+            <a href="https://www.linkedin.com/in/prathiv-raj-3828a2382" target="_blank">
+                LinkedIn
+            </a>
+
+            <a href="https://github.com/prathivrajdev01-ux" target="_blank">
+                GitHub
+            </a>
+
+            <a href="https://prathivrajdev01-ux.github.io/Portfolio/" target="_blank">
+                Portfolio
+            </a>
+
+        </div>
 
         <hr>
 
-        <h2>About</h2>
+        <h2>About Me</h2>
+
         <p>
-            I am a BCA graduate passionate about programming.
-            I have experience in C++, DSA, SQL and problem solving.
-            I am actively looking for internship and entrey-level job opportunities.
+            I am a Full Stack Developer with hands-on experience in building web applications using React, PHP, MySQL, Electron, and SQLite.
+            I completed a Web Development internship where I developed projects like a CRM System and a Leave & Permission Tracker.
+            I enjoy building scalable and user-friendly applications while continuously improving my problem-solving skills.
         </p>
 
         <hr>
 
         <h2>Skills</h2>
+
         <ul>
-            <li>C++ (Basics & Intermediate)</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>React</li>
+            <li>HTML & CSS</li>
+            <li>Tailwind CSS</li>
+            <li>MySQL & SQLite</li>
+            <li>Electron</li>
+            <li>Git & GitHub</li>
             <li>Data Structures & Algorithms</li>
-            <li>SQL (Basic)</li>
-            <li>Problem Solving</li>
-            <li>File Handling in C++</li>
-            <li>Git & GitHub (Basic)</li>
         </ul>
 
         <hr>
 
         <h2>Projects</h2>
 
-        <h3>Final Year Project - Mobile & Laptop Service and Spare Parts Website</h3>
+        <h3>Simple CRM System</h3>
+
         <p>
-            Developed a service-based academic web application for mobile and laptop
-            service centers. The system allows users to browse spare parts and view
-            service-related information.
+            Developed a CRM system using React, PHP, and MySQL for managing customer leads and follow-ups.
         </p>
+
         <p>
-            Implemented backed logic using Python Flask and integrated a MySQL database 
-            for basic data storage and retrieval.
+            Features include lead tracking, follow-up reminders, lead status management, and a basic dashboard.
         </p>
+
+        <p class="tech">
+            Technologies Used: React, PHP, MySQL
+        </p>
+
+        <br>
+
+        <h3>Leave & Permission Tracker</h3>
+
         <p>
+            Built a desktop application for managing employee leave requests and permissions.
+        </p>
+
+        <p>
+            Implemented CRUD operations using React, Electron, Tailwind CSS, and SQLite.
+        </p>
+
+        <p class="tech">
+            Technologies Used: React, Electron, Tailwind CSS, SQLite
+        </p>
+
+        <br>
+
+        <h3>Mobile & Laptop Service and Spare Parts Website</h3>
+
+        <p>
+            Developed a web application for mobile and laptop service centers with spare parts browsing and service management features.
+        </p>
+
+        <p>
+            Implemented backend functionality using Flask and MySQL for data storage and retrieval.
+        </p>
+
+        <p class="tech">
             Technologies Used: Python (Flask), HTML, CSS, MySQL
         </p>
 
+        <br>
+
         <h3>Library Management System</h3>
+
         <p>
-            Console-based apllication using c++ and file handling. <br>
-            Features: Add, View, Search, Update and Delete books.
-        </p>
-        <p>
-            GitHub: <a href="https://github.com/prathivrajdev01-ux/Library-Management-System" target="_blank">View Project</a>
+            Console-based application using C++ and file handling with CRUD operations for managing books.
         </p>
 
-        <h3>Student Management System</h3>
-        <p>
-            C++ project to manage student records using file handling. <br>
-            Features: Add, View, Search, Delete, Sort.
+        <p class="project-link">
+            GitHub:
+            <a href="https://github.com/prathivrajdev01-ux/Library-Management-System" target="_blank">
+                View Project
+            </a>
         </p>
+
+        <br>
+
+        <h3>Student Management System</h3>
+
         <p>
-            GitHub: <a href="https://github.com/prathivrajdev01-ux/student-management-system-cpp" target="_blank">View Project</a>
+            C++ application to manage student records with features like Add, View, Search, Delete, and Sort.
+        </p>
+
+        <p class="project-link">
+            GitHub:
+            <a href="https://github.com/prathivrajdev01-ux/student-management-system-cpp" target="_blank">
+                View Project
+            </a>
         </p>
 
         <hr>
 
-        <h2>Certificates</h2>
+        <h2>Certifications</h2>
 
         <ul>
             <li>
-                Problem Solving - HackerRank
-                <br>
-                <small>(Basic & Intermediate)</small>
+                HackerRank - Problem Solving (Basic & Intermediate)
             </li>
 
             <li>
-                C++ - SoloLearn
-                <br>
-                <small>(Basic & Intermediate)</small>
+                HackerRank - SQL (Basic)
             </li>
 
-            <li>SQL - HackerRank
-                <small>(Basic)</small>
+            <li>
+                SoloLearn - C++ (Basic & Intermediate)
             </li>
         </ul>
 
@@ -135,23 +264,28 @@
 
         <h2>Contact</h2>
 
-        <p>Email: 
-            <a href="mailto:prathivrajdev01@gmail.com" target="_blank">
-                prathivrajdev01@gmail.com
+        <p>
+            Email:
+            <a href="mailto:prathivraj.dev01@gmail.com">
+                prathivraj.dev01@gmail.com
             </a>
         </p>
 
-        <p>LinkedIn:
+        <p>
+            LinkedIn:
             <a href="https://www.linkedin.com/in/prathiv-raj-3828a2382" target="_blank">
-                linkedin.com/in/prathivraj
+                linkedin.com/in/prathiv-raj
             </a>
         </p>
 
-        <p>GitHub:
+        <p>
+            GitHub:
             <a href="https://github.com/prathivrajdev01-ux" target="_blank">
                 github.com/prathivrajdev01-ux
             </a>
         </p>
+
     </div>
-    </body>
+
+</body>
 </html>
